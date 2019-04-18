@@ -9,6 +9,6 @@ def countdown(seconds)
   "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(pauses)
-  sleep(pauses.seconds)
+def countdown_with_sleep(num_secs)
+  sleep(num_secs)
 end
